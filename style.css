@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+    padding: 20px 100px;
+}
+/* C_button code */
+
+#c_button{
+cursor: pointer;
+text-align: right;
+}
+
+.btn{
+    width: 20px;
+    height: 20px;
+    border: solid 2px gray;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#white{
+    background-color: white;
+}
+#green{
+    background-color: green;
+}
+#black{
+    background-color: rgb(0, 0, 0);
+}
+#orange{
+    background-color: orange;
+}
+
+/* title */
+h2{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* image */
+img{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* text */
+p{
+    text-align: justify;
+}
+ 

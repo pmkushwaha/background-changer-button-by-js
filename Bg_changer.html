@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background changer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+
+<body>
+    <div id="c_button">
+       
+        <span class="btn" id="white" onclick="change_bg('white')"></span>
+        <span class="btn" id="green" onclick="change_bg('green')"></span>
+        <span class="btn" id="black" onclick="change_bg('#000000')"></span>
+        <span class="btn" id="orange" onclick="change_bg('orange')"></span>
+    </div>
+    <h2 class="text">About ME
+    </h2>
+    <img src="https://imgs.search.brave.com/1Zl1FedcFyvJl5lwiB3O6KwTgON2hiFmzrHQl1VQiWc/rs:fit:1200:1000:1/g:ce/aHR0cHM6Ly9icml0/dGFueW5ob3J0b24u/Y29tL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDIwLzA0L0Fib3V0/LU1lLUJhbm5lci0x/LnBuZw"
+        alt="about_me">
+    <p class="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam itaque sunt quasi! Error corporis quibusdam
+        minima molestias sunt, deserunt dignissimos quasi, itaque quae ad praesentium eaque dolorem porro iste
+        temporibus asperiores, veniam omnis tempore et consequuntur. Architecto laborum quasi soluta, minus libero
+        facilis aperiam! Cumque vero voluptatem maxime, delectus eius molestiae odio! Amet tempore vitae facilis
+        consectetur, ipsa porro libero? Unde molestias voluptatibus assumenda ipsa accusantium inventore expedita in non
+        beatae reiciendis recusandae eveniet, harum culpa nihil atque corrupti pariatur eius commodi. Ullam, nulla
+        maiores! Sunt dignissimos quis distinctio blanditiis repellendus, maxime vitae! Molestiae assumenda voluptatum
+        vel non saepe molestias nisi sapiente sint pariatur tenetur nobis quae laudantium expedita aspernatur minima sed
+        et labore asperiores eos id tempora corporis eius, doloremque explicabo? Ipsum quod tempore, totam voluptates,
+        ducimus vitae dolor numquam sapiente minima nisi illo. Ex recusandae, ab rerum quod, nobis reprehenderit
+        delectus ducimus, nulla officiis aperiam quis necessitatibus. Voluptatum voluptatem quam minus unde accusamus?
+        Incidunt cupiditate architecto quia eius animi, sequi placeat eligendi sit exercitationem, voluptatibus earum
+        vel molestiae officia porro ipsam, ad quibusdam! Nesciunt animi, necessitatibus eligendi architecto dolor qui
+        impedit id vel distinctio esse explicabo atque consequatur minima temporibus minus inventore. Blanditiis quaerat
+        at fugit quibusdam earum qui culpa iste corporis impedit, libero dignissimos ab odio sint tempore quas
+        voluptatem nesciunt voluptatibus magnam consectetur. Architecto esse perferendis nesciunt quod, fugiat rem
+        maiores voluptas! Nesciunt autem eius incidunt. Eveniet delectus quos possimus doloremque illum laborum fugit
+        explicabo, corporis voluptatum esse cupiditate saepe neque, eaque similique impedit? Quae non ab quas pariatur
+        eos, quisquam error voluptatem animi explicabo earum sunt, praesentium tempore esse minima, nihil laboriosam
+        consectetur totam impedit excepturi maxime cum. Debitis placeat repudiandae nihil quaerat accusamus facere animi
+        possimus esse sed ex voluptatibus aliquam iste corrupti quidem porro nobis quasi beatae inventore architecto
+        quas, excepturi ab consequuntur earum incidunt! Magnam nobis illo porro, quaerat aperiam quidem recusandae
+        aspernatur ratione omnis, blanditiis aliquam rerum. Id cum saepe deleniti possimus facilis mollitia, reiciendis,
+        explicabo illo rerum molestiae iure sint recusandae delectus ducimus praesentium atque, consequuntur sequi
+        voluptates sunt quam. Nam veritatis vitae molestiae, et necessitatibus architecto eveniet officia? Quam, a!
+        Molestiae quia unde ex eum architecto, adipisci delectus excepturi, esse in ad amet fugit, enim ipsa itaque
+        natus voluptate? Enim asperiores dicta, consequatur ea voluptate mollitia officia dolore distinctio fuga,
+        exercitationem earum quo quam. Iusto quam nostrum natus animi ipsam asperiores architecto vel aut neque velit
+        quos, quisquam error fuga ipsa nobis soluta ipsum voluptatum. Est explicabo, error aut amet numquam impedit
+        laudantium veritatis! Minus distinctio ea, voluptatem, nam, voluptatibus provident tempore magni porro et
+        dolorem aut aliquid sequi voluptas odio accusamus minima eum? Autem harum fuga hic cumque molestiae velit
+        nostrum impedit expedita amet vero dolor minus tenetur possimus sed temporibus assumenda, blanditiis sit
+        repellendus deserunt totam dicta reiciendis. Vel ipsum tempore, sed rem autem repellat cupiditate quidem eaque
+        sapiente atque, voluptas maiores vero debitis vitae earum similique cumque numquam placeat quod, unde natus. Ut
+        nostrum sint quibusdam culpa temporibus odio maxime quasi. Velit nesciunt aperiam eum optio?
+    </p>
+
+
+    <script>
+
+
+        function change_bg(color) {
+            document.body.style.backgroundColor = color;
+      let text=document.getElementsByClassName("text");
+            if (color == '#000000') {
+                for (let elm of text) {
+                    elm.style.color = "white";
+                    
+                }
+
+            }
+            else {
+                for (let elm of text) {
+                    elm.style.color = "black";
+                }
+            }
+
+        }
+
+        
+    </script>
+</body>
+
+</html>
